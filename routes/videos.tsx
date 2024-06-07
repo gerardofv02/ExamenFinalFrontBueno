@@ -52,7 +52,7 @@ const Videos = (props: PageProps) => {
                 <div class="video-info">
                   <h3 class="video-title">{v.title}</h3>
                   <p class="video-description">{v.description}</p>
-                  <p class="video-release-date">{v.date}</p>
+                  <p class="video-release-date">Release date: {v.date}</p>
                 </div>
               </a>
               <AddFavourite

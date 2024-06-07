@@ -82,11 +82,11 @@ const Login = (props: PageProps<{ message: string }>) => {
         <label for="email">Email</label>
         <input name="email" type="email" required>
         </input>
-        <br />
+
         <label for="password">Password</label>
         <input name="password" type="password" required>
         </input>
-        <br />
+
         <button type="submit">Login</button>
         <p class="register-link">
           Don't have account?

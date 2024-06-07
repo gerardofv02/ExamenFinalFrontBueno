@@ -34,12 +34,12 @@ const AddFavourite: FunctionComponent<
       {mifav
         ? (
           <button class="fav-button" onClick={() => onAddFav(idUser, idVideo)}>
-            Quitar de fav
+            ❤️ Remove from Favorites
           </button>
         )
         : (
           <button class="fav-button" onClick={() => onAddFav(idUser, idVideo)}>
-            Añadir a fav
+            🤍 Add to Favorites
           </button>
         )}
       {err && err}

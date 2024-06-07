@@ -82,11 +82,11 @@ const Register = (props: PageProps<{ message: string }>) => {
         <label for="name">Full Name</label>
         <input name="name" type="text" required>
         </input>
-        <br />
+
         <label for="email">Email</label>
         <input name="email" type="email" required>
         </input>
-        <br />
+
         <label for="password">Password</label>
         <input name="password" type="password" required>
         </input>

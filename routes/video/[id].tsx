@@ -32,7 +32,7 @@ export const handler: Handlers = {
 const Video = (props: PageProps) => {
   return (
     <div class="video-detail-container">
-      <a href="/videos" class="back-button">Go back to List</a>
+      <a href="/videos" class="back-button">← Go Back to List</a>
       <div class="video-frame">
         <iframe
           width="100%"
@@ -41,7 +41,6 @@ const Video = (props: PageProps) => {
             `https://youtube.com/embed/${props.data.video.youtubeid}`}
           title={props.data && props.data.video.title}
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         >
         </iframe>
         <h2 class="video-detail-title">
